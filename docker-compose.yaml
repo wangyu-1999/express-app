@@ -3,7 +3,7 @@ services:
     image: march787/node-express-app:latest
     container_name: node-express-app
     ports:
-      - "80:3000"
+      - "8080:8080"
     restart: always
 
   watchtower:
